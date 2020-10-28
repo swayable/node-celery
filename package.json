@@ -1,19 +1,20 @@
 {
-  "name": "node-celery",
+  "name": "@dropyourcoffee/node-celery",
   "version": "0.2.8",
   "description": "Celery client for Node",
-  "author": "Mher Movsisyan <mher.movsisyan@gmail.com>",
+  "author": "Dexter Jung <dropyourcoffee@gmail.com>",
   "scripts": {
     "test": "mocha tests"
   },
   "dependencies": {
     "amqp": "*",
+    "node-uuid": "^1.4.8",
     "redis": "*",
     "uuid": "^3.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mher/node-celery.git"
+    "url": "git://github.com/dropyourcoffee/node-celery.git"
   },
   "devDependencies": {
     "mocha": "*"
