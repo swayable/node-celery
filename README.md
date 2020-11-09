@@ -1,7 +1,7 @@
 # Celery client for Node.js
 
-[![NPM Version](https://img.shields.io/npm/v/node-celery.svg)](https://img.shields.io/npm/v/@dropyourcoffee/node-celery.svg)
-[![Downloads](https://img.shields.io/npm/dm/node-celery.svg)](https://img.shields.io/npm/dm/@dropyourcoffee/node-celery.svg)
+[![NPM Version](https://img.shields.io/npm/v/@dropyourcoffee/node-celery.svg)](https://img.shields.io/npm/v/@dropyourcoffee/node-celery.svg)
+[![Downloads](https://img.shields.io/npm/dm/@dropyourcoffee/node-celery.svg)](https://img.shields.io/npm/dm/@dropyourcoffee/node-celery.svg)
 
 Celery is an asynchronous task/job queue based on distributed
 message passing. node-celery allows to queue tasks from Node.js.

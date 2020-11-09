@@ -1,6 +1,6 @@
 {
   "name": "@dropyourcoffee/node-celery",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Celery client for Node",
   "author": "Dexter Jung <dropyourcoffee@gmail.com>",
   "scripts": {

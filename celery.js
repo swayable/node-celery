@@ -30,7 +30,7 @@ function Configuration(options) {
 
   // broker
   self.BROKER_URL = self.BROKER_URL || 'amqp://';
-  self.BROKER_OPTIONS = self.BROKER_OPTIONS || { url: self.BROKER_URL, heartbeat: 580 };
+  self.BROKER_OPTIONS = { url: self.BROKER_URL, heartbeat: 580, ...self.BROKER_OPTIONS };
   self.DEFAULT_QUEUE = self.DEFAULT_QUEUE || 'celery';
   self.DEFAULT_EXCHANGE = self.DEFAULT_EXCHANGE || '';
   self.DEFAULT_EXCHANGE_TYPE = self.DEFAULT_EXCHANGE_TYPE || 'direct';
